@@ -1,0 +1,128 @@
+/* figtree-500italic - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Figtree';
+    font-style: italic;
+    font-weight: 500;
+    src: url('../fonts/figtree-v5-latin-500italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* figtree-900italic - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Figtree';
+    font-style: italic;
+    font-weight: 900;
+    src: url('../fonts/figtree-v5-latin-900italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ a {
+    text-decoration: none;
+ }
+
+html, body {
+   height: 100%;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4D04E;
+    font-family: 'Figtree',sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    color: #7f7f7f
+}
+
+
+.card{
+    background-color:#ffff;
+    width: 384px;
+    border: 1px solid #111;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0px 0px #000;
+    padding: 24px;
+}
+    
+
+.card-image {
+    margin-bottom: 24px;
+}
+
+
+.card-badge {
+    background-color: #F4D04E;
+    padding: 4px 12px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 12px;
+}
+
+
+.card-badge-text {
+    font-weight: 800;
+    font-size: 14px;
+    color: #111;
+    line-height: 21px;
+}
+
+
+.published-data {
+    font-size: 14px;
+    color: #111;
+    margin-bottom: 12px;
+}
+
+
+.card-title {
+    color: #111;
+    margin-bottom: 12px;
+    font-size: 24px;
+}
+
+
+.card-title-link {
+    color: #111;
+    margin-bottom: 12px;
+}
+
+
+.card-title-link:hover {
+    color:#F4D04E;
+}
+
+
+.card-description {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+
+.card-author-image {
+    width: 32px;
+    height: 32px;
+    border-radius: 32px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+
+.card-author-name {
+     color: #111;
+     font-size: 14px;
+     font-weight:800;
+}
+
+
+.card-auto {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
